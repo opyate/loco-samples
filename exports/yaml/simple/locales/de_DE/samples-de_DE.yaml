@@ -1,0 +1,12 @@
+# Loco yaml export - Simple object (Symfony)
+# Project: Samples
+# Release: Working version
+# Modules: All
+# Locale: de_DE, German
+# Exported at: Mon, 21 May 2012 11:40:02 +0100
+# Exported by: Tim Whitlock 
+---
+hello_world: Hallo Welt
+goodbye: Auf Wiedersehen
+...
+

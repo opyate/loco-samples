@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<!-- 
+ Loco xml export - XLIFF - Localisation Interchange File Format
+ Project: Samples
+ Release: Working version
+ Modules: All
+ Locale: fr_FR, French
+ Exported at: Mon, 21 May 2012 11:39:58 +0100
+ Exported by: Tim Whitlock 
+--> 
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2"> 
+    <file source-language="en-GB" datatype="plaintext" original="">
+        <body>
+            <trans-unit id="1" resname="hello-world">
+                <source xml:lang="en-GB">hello-world</source>
+                <target xml:lang="fr-FR">Bonjour tout le monde</target>
+            </trans-unit>
+        </body>
+    </file> 
+    <file source-language="en-GB" datatype="plaintext" original="">
+        <body>
+            <trans-unit id="2" resname="goodbye">
+                <source xml:lang="en-GB">goodbye</source>
+                <target xml:lang="fr-FR">Au revoir</target>
+            </trans-unit>
+        </body>
+    </file></xliff>
