@@ -15,7 +15,7 @@ $localepath = realpath($localepath) and file_exists($localepath) or die('Cannot 
 // Translations stored in a single array in a return statement
 $messages = include $localepath;
 
-// Translate keys with A simple array lookup
+// Translate keys with a simple array lookup
 $key = 'samples_hello_world';
 $message = $messages[$key] or $message = $key;
 

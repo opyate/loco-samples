@@ -12,7 +12,6 @@ $localepath = '../../../data/xml/tmx/locales/'.$locale.'/samples-'.$locale.'.xml
 $localepath = realpath($localepath) and file_exists($localepath) or die('Cannot find the tmx locale file');
 
 
-
 // Extract key/value pairs from TMX file
 $messages = array();
 $tmx = simplexml_load_file($localepath);
@@ -32,7 +31,7 @@ foreach( $tmx->body->tu as $tu ){
 }
 
 
-// Translate keys with  array lookup
+// Translate keys with array lookup
 $key = 'hello-world';
 $message = $messages[$key] or $message = $key;
 

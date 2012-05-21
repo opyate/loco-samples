@@ -15,10 +15,10 @@ $locale = example_current_locale();
 $localepath = '../../../data/yaml/simple/locales/'.$locale.'/samples-'.$locale.'.yml';
 $localepath = realpath($localepath) and file_exists($localepath) or die('Cannot find the YAML locale file');
 
-// Translations stored in a single array in a return statement
+// Translations stored in a one-dimensional YAML object
 $messages = yaml_parse_file( $localepath );
 
-// Translate keys with A simple array lookup
+// Translate keys with a simple array lookup
 $key = 'hello_world';
 $message = $messages[$key] or $message = $key;
 
