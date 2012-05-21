@@ -22,9 +22,9 @@ $message = $messages[$key] or $message = $key;
 
 ?><!DOCTYPE html>
 <html lang="<?php echo $locale?>">
-<meta charset="utf-8" />
 <head>
-<title>Loco php examples - Gettext (<?php echo $locale?>)</title>
+<meta charset="utf-8" />
+<title>Loco php examples - Simple array - (<?php echo $locale?>)</title>
 </head>
 <body>
     <h1><?php echo htmlentities( $message, ENT_COMPAT, 'UTF-8')?></h1>

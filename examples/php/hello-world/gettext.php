@@ -26,8 +26,8 @@ $message = _('hello-world');
 
 ?><!DOCTYPE html>
 <html lang="<?php echo $locale?>">
-<meta charset="utf-8" />
 <head>
+<meta charset="utf-8" />
 <title>Loco php examples - Gettext (<?php echo $locale?>)</title>
 </head>
 <body>
