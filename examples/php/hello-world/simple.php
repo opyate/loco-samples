@@ -8,8 +8,8 @@
 require 'utils/inc-example-functions.php';
 $locale = example_current_locale();
 
-// Language packs are in the exports directory, under 'zend'
-$localepath = '../../../exports/php/zend/locales/'.$locale.'/samples-'.$locale.'.php';
+// Language packs are in the data directory, under 'zend'
+$localepath = '../../../data/php/zend/locales/'.$locale.'/samples-'.$locale.'.php';
 $localepath = realpath($localepath) and file_exists($localepath) or die('Cannot find the zend locale file');
 
 // Translations stored in a single array in a return statement

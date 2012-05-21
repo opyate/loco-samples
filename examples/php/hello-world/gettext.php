@@ -6,8 +6,8 @@
 // You will need the Gettext extension installed
 extension_loaded('gettext') or die('Gettext extension is not installed');
 
-// Language packs are in the exports directory
-$localepath = realpath('../../../exports/gettext/locales') and is_dir($localepath) or die('Cannot find the gettext locales directory');
+// Language packs are in the data directory
+$localepath = realpath('../../../data/gettext/locales') and is_dir($localepath) or die('Cannot find the gettext locales directory');
 
 // Grab current locale from utility function
 require 'utils/inc-example-functions.php';
