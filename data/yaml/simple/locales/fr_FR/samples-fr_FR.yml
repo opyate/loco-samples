@@ -1,0 +1,12 @@
+# Loco yaml export - Simple object (Symfony)
+# Project: Samples
+# Release: Working version
+# Modules: All
+# Locale: fr_FR, French
+# Exported at: Mon, 21 May 2012 15:55:35 +0100
+# Exported by: Tim Whitlock 
+---
+hello_world: Bonjour tout le monde
+goodbye: Au revoir
+...
+
