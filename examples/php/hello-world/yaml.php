@@ -31,6 +31,6 @@ $message = $messages[$key] or $message = $key;
 </head>
 <body>
     <h1><?php echo htmlentities( $message, ENT_COMPAT, 'UTF-8')?></h1>
-    <?php example_print_locale_menu()?> 
+    <?php include 'utils/inc-example-footer.php'?> 
 </body>
 </html>
