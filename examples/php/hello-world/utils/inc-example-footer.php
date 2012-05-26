@@ -3,7 +3,8 @@
  * Common footer for PHP examples
  * - shows language menu and view source link
  */
-$self = str_replace('/examples/php/','',$_SERVER['PHP_SELF'])
+extract( pathinfo($_SERVER['PHP_SELF']) );
+$self = basename($dirname).'/'.$basename;
 ?>
 
 <div>
