@@ -41,6 +41,7 @@ $message = $messages[$key] or $message = $key;
 <head>
 <meta charset="utf-8" />
 <title>Loco php examples - TMX - (<?php echo $locale?>)</title>
+<link href="flags.css" rel="stylesheet" />
 </head>
 <body>
     <h1><?php echo htmlentities( $message, ENT_COMPAT, 'UTF-8')?></h1>

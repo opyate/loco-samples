@@ -30,6 +30,7 @@ $message = _('hello-world');
 <head>
 <meta charset="utf-8" />
 <title>Loco php examples - Gettext (<?php echo $locale?>)</title>
+<link href="flags.css" rel="stylesheet" />
 </head>
 <body>
     <h1><?php echo htmlentities( $message, ENT_COMPAT, 'UTF-8')?></h1>

@@ -63,9 +63,10 @@ function example_supported_locales(){
 function example_print_locale_menu(){
     $links = array();
     foreach( example_supported_locales() as $code => $label ){
-        $links[] = sprintf('<a href="?locale=%s">%s</a>', $code, htmlentities($label, ENT_COMPAT,'UTF-8') );
+        $css = 'flag flag-'.strtolower( substr($code, 3, 2 ) );
+        $links[] = sprintf('<a href="?locale=%s"><span class="%s"></span> %s</a>', $code, $css, htmlentities($label, ENT_COMPAT,'UTF-8') );
     }
-    echo implode(' | ', $links );
+    echo implode(' ', $links );
 }
 
  
