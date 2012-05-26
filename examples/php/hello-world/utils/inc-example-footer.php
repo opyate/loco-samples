@@ -8,5 +8,8 @@ $self = str_replace('/examples/php/','',$_SERVER['PHP_SELF'])
 
 <div>
     <?php example_print_locale_menu()?> 
-    <p><a href="../viewsource.php?p=<?php echo rawurlencode($self)?>">View source</a></p>
+    <p>
+        <a href="../">Back</a> |
+        <a href="../viewsource.php?p=<?php echo rawurlencode($self)?>">View source</a>
+    </p>
 </div>
