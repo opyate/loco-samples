@@ -15,9 +15,10 @@ $locale = example_current_locale();
 
 // set up Gettext
 putenv('LC_ALL='.$locale);  // <- required on Mac
-setlocale(LC_ALL, $locale); // <- required on Linux
+setlocale(LC_ALL, $locale.'.utf8'); // <- required on Linux
 $domain = 'messages';
 bindtextdomain( $domain, $localepath );
+function_exists('bind_textdomain_codeset') and bind_textdomain_codeset( $domain, 'UTF-8');
 textdomain( $domain ); 
 
 // Translate keys with the "_" or "gettext" functions
