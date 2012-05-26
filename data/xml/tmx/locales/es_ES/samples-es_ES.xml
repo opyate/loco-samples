@@ -1,16 +1,16 @@
 <?xml version="1.0"?> 
-<!DOCTYPE tmx SYSTEM "tmx14.dtd">
+<!DOCTYPE tmx SYSTEM "http://www.ttt.org/oscarstandards/tmx/tmx14.dtd">
 <!--
-Loco xml export - TMX - Translation Memory eXchange
+ Loco xml export - TMX - Translation Memory eXchange
  Project: Samples
  Release: Working version
  Modules: All
  Locale: es_ES, Spanish
- Exported at: Mon, 21 May 2012 11:40:03 +0100
+ Exported at: Sat, 26 May 2012 11:44:39 +0100
  Exported by: Tim Whitlock  
 -->
 <tmx version="1.4">
-   <header creationtoolversion="1.0.0" segtype="sentence" o-tmf="abc" creationtool="Loco" adminlang="en-gb" srclang="en"></header>
+   <header creationtoolversion="1.0.0" segtype="sentence" o-tmf="abc" creationtool="Loco" adminlang="en-gb" srclang="en" datatype="unknown"></header>
    <body> 
        <tu tuid='hello-world' datatype="plaintext">
            <tuv xml:lang="en"><seg>hello-world</seg></tuv>

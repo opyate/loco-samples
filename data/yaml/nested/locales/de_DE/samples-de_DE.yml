@@ -3,7 +3,7 @@
 # Release: Working version
 # Modules: All
 # Locale: de_DE, German
-# Exported at: Mon, 21 May 2012 15:55:38 +0100
+# Exported at: Sat, 26 May 2012 11:44:37 +0100
 # Exported by: Tim Whitlock 
 ---
 de:
@@ -11,4 +11,3 @@ de:
     hello_world: Hallo Welt
     goodbye: Auf Wiedersehen
 ...
-

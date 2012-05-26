@@ -3,7 +3,7 @@
 # Release: Working version
 # Modules: All
 # Locale: es_ES, Spanish
-# Exported at: Mon, 21 May 2012 15:55:40 +0100
+# Exported at: Sat, 26 May 2012 11:44:40 +0100
 # Exported by: Tim Whitlock 
 ---
 es:
@@ -11,4 +11,3 @@ es:
     hello_world: Hola mundo
     goodbye: Adiós
 ...
-

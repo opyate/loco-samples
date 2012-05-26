@@ -1,0 +1,13 @@
+# Loco yaml export - Nested object (Ruby on Rails)
+# Project: Samples
+# Release: Working version
+# Modules: All
+# Locale: no_NO, Norwegian
+# Exported at: Sat, 26 May 2012 11:44:46 +0100
+# Exported by: Tim Whitlock 
+---
+"no":
+  samples:
+    hello_world: Hallo Verden
+    goodbye: Farvel
+...

@@ -1,0 +1,11 @@
+# Loco yaml export - Simple object (Symfony)
+# Project: Samples
+# Release: Working version
+# Modules: All
+# Locale: da_DK, Danish
+# Exported at: Sat, 26 May 2012 11:44:52 +0100
+# Exported by: Tim Whitlock 
+---
+hello_world: Hej Verden
+goodbye: Farvel
+...

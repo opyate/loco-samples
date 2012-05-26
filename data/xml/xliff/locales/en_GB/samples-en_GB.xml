@@ -1,13 +1,14 @@
-<?xml version="1.0"?>
-<!-- 
+<?xml version="1.0"?> 
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+<!--
  Loco xml export - XLIFF - Localisation Interchange File Format
  Project: Samples
  Release: Working version
  Modules: All
  Locale: en_GB, English (UK)
- Exported at: Mon, 21 May 2012 11:39:56 +0100
- Exported by: Tim Whitlock 
---> 
+ Exported at: Sat, 26 May 2012 11:44:27 +0100
+ Exported by: Tim Whitlock  
+-->
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2"> 
     <file source-language="en-GB" datatype="plaintext" original="">
         <body>

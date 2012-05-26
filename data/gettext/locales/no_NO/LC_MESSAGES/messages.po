@@ -1,0 +1,22 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Samples - Working version\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: Sat, 26 May 2012 11:39:14 +0100\n"
+"PO-Revision-Date: Sat, 26 May 2012 11:44:45 +0100\n"
+"Last-Translator: \n"
+"Language-Team: Sample group\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Loco-Native: en_GB\n"
+"X-Loco-Locale: no_NO\n"
+ 
+#: Asset hello-world 
+msgid "hello-world"
+msgstr "Hallo Verden"
+ 
+#: Asset goodbye 
+msgid "goodbye"
+msgstr "Farvel"
+ 

@@ -40,11 +40,17 @@ function example_current_locale(){
  */ 
 function example_supported_locales(){
     static $locales = array (
+        // EFIGS
         'en_GB' => 'English (UK)',
         'fr_FR' => 'Français',
         'it_IT' => 'Italiano',
         'de_DE' => 'Deutsch',
         'es_ES' => 'Español',
+        // Scandinavia
+        'sv_SE' => 'Svenska',
+        'no_NO' => 'Norske',
+        'fi_FI' => 'Suomi',
+        'da_DK' => 'Dansk',
     );
     return $locales;
 }
