@@ -3,6 +3,9 @@
  * Example of using Gettext files to display translated content.
  */
 
+// ensure utf8
+header('Content-Type: text/html; charset=UTF-8', true);
+ 
 // You will need the Gettext extension installed
 extension_loaded('gettext') or die('Gettext extension is not installed');
 

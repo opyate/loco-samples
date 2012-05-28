@@ -4,6 +4,9 @@
  * This is the same format that Zend and Symfony use for PHP language files.
  */
 
+// ensure utf8
+header('Content-Type: text/html; charset=UTF-8', true);
+ 
 // Grab current locale from utility function
 require 'utils/inc-example-functions.php';
 $locale = example_current_locale();

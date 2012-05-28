@@ -3,9 +3,11 @@
  * Example of using a simple YAML file to display translated content
  */
 
- // You will need the YAML extension installed
+// ensure utf8
+header('Content-Type: text/html; charset=UTF-8', true);
+
+// You will need the YAML extension installed
 extension_loaded('yaml') or die('yaml extension is not installed');
- 
  
 // Grab current locale from utility function
 require 'utils/inc-example-functions.php';

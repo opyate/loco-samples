@@ -3,6 +3,9 @@
  * Example of using a Translation Memory eXchange XML file to display translated content.
  */
 
+// ensure utf8
+header('Content-Type: text/html; charset=UTF-8', true);
+ 
 // Grab current locale from utility function
 require 'utils/inc-example-functions.php';
 $locale = example_current_locale();
