@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>Loco js example</title>
+</head>
+<body>
+
+    <!-- Some HTML containing text to be translated -->
+    <h1 id="hello-world">Hello World</h1>
+    
+    <!-- Load initial language pack from data directory -->
+    <script src="/samples/data/js/script/locales/sv_SE/samples-sv_SE.js"></script>
+    
+    <!-- Convert heading to Swedish on page load -->
+    <script>
+    var id = 'hello-world'
+    var el = document.getElementById(id);
+    el.innerHTML = t(id);
+    </script>
+
+</body>
+</html>
