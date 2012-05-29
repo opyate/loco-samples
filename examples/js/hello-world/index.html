@@ -16,7 +16,8 @@
     <script>
     var id = 'hello-world'
     var el = document.getElementById(id);
-    el.innerHTML = t(id);
+    var tx = document.createTextNode( t(id) );
+    el.replaceChild( tx, el.firstChild );
     </script>
 
 </body>
