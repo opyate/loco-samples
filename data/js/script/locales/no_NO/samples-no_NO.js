@@ -2,13 +2,14 @@
  * Loco js export - JavaScript - wrapped in "t" function
  * Project: Samples
  * Release: Working version
- * Modules: All
+ * Tagged: All
  * Locale: no_NO, Norwegian
- * Exported at: Tue, 29 May 2012 18:28:09 +0100
+ * Exported at: Mon, 13 Aug 2012 16:55:48 +0100
  * Exported by: Tim Whitlock 
  */
 var t = function( pairs ){
     return function( key ){
         return pairs[key] || key; 
     }
-}( {"hello-world":"Hallo Verden","goodbye":"Farvel"} );
+}( {"hello-world":"Hallo Verden","goodbye":"Farvel"}
+ );

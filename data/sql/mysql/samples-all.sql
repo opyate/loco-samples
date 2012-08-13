@@ -1,10 +1,10 @@
 
--- Loco sql export - MySQL - INSERT/REPLACE statements
+-- Loco sql export - MySQL - REPLACE statements
 -- Project: Samples
 -- Release: Working version
--- Modules: All
--- Locales: Batch
--- Exported at: Wed, 30 May 2012 13:24:30 +0100
+-- Tagged: All
+-- Locales: en_GB, fr_FR, it_IT, de_DE, es_ES, sv_SE, no_NO, fi_FI, da_DK
+-- Exported at: Mon, 13 Aug 2012 16:55:45 +0100
 -- Exported by: Tim Whitlock 
 
 SET @saved_cs_client     = @@character_set_client;
@@ -12,7 +12,7 @@ SET character_set_client = utf8;
 
 /* -- Example schema
  CREATE TABLE `loco_samples` (
-  `id` VARCHAR(50) NOT NULL COMMENT 'Developer key',
+  `id` VARCHAR(50) NOT NULL COMMENT 'Asset ID',
   `en_GB` BLOB NOT NULL COMMENT 'English (UK)',
   `fr_FR` BLOB NOT NULL COMMENT 'French',
   `it_IT` BLOB NOT NULL COMMENT 'Italian',

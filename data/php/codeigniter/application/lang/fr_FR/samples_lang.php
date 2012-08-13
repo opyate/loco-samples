@@ -1,12 +1,12 @@
 <?php 
 /**
- * Loco php export - Code Igniter $lang format
+ * Loco php export - Code Igniter $lang array format
  * Project: Samples
  * Release: Working version
- * Modules: All
+ * Tagged: All
  * Locale: fr_FR, French
- * Exported at: Sat, 26 May 2012 11:44:29 +0100
- * Exported by: Tim Whitlock  
+ * Exported at: Mon, 13 Aug 2012 16:55:51 +0100
+ * Exported by: Tim Whitlock 
  */
 $lang['samples_hello_world'] = 'Bonjour tout le monde';
 $lang['samples_goodbye'] = 'Au revoir';

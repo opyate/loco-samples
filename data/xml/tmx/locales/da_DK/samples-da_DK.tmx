@@ -1,0 +1,42 @@
+<?xml version="1.0"?> 
+<!DOCTYPE tmx SYSTEM "http://www.ttt.org/oscarstandards/tmx/tmx14.dtd">
+<!--
+ Loco xml export - TMX - Translation Memory eXchange
+ Project: Samples
+ Release: Working version
+ Tagged: All
+ Locale: da_DK, Danish
+ Exported at: Mon, 13 Aug 2012 16:55:33 +0100
+ Exported by: Tim Whitlock 
+-->
+<tmx version="1.4">
+    <header creationtoolversion="1.0.0" segtype="sentence" o-tmf="" creationtool="Loco" adminlang="en-gb" srclang="en" datatype="" o-encoding="utf-8">
+        <note>Loco export</note>
+    </header>
+    <body> 
+       <tu tuid="hello-world" datatype="plaintext">
+           <tuv xml:lang="en">
+               <seg>
+                   <![CDATA[hello-world]]>
+               </seg>
+           </tuv>
+           <tuv xml:lang="da">
+               <seg>
+                   <![CDATA[Hej Verden]]>
+               </seg>
+           </tuv>
+       </tu> 
+       <tu tuid="goodbye" datatype="plaintext">
+           <tuv xml:lang="en">
+               <seg>
+                   <![CDATA[goodbye]]>
+               </seg>
+           </tuv>
+           <tuv xml:lang="da">
+               <seg>
+                   <![CDATA[Farvel]]>
+               </seg>
+           </tuv>
+       </tu> 
+   </body>
+</tmx>

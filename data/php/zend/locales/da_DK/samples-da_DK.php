@@ -3,10 +3,10 @@
  * Loco php export - Single array (Symfony, Zend)
  * Project: Samples
  * Release: Working version
- * Modules: All
+ * Tagged: All
  * Locale: da_DK, Danish
- * Exported at: Sat, 26 May 2012 11:44:50 +0100
- * Exported by: Tim Whitlock  
+ * Exported at: Mon, 13 Aug 2012 16:55:49 +0100
+ * Exported by: Tim Whitlock 
  */
 return array (
   'samples_hello_world' => 'Hej Verden',

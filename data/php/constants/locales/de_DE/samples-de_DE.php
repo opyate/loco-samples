@@ -3,12 +3,14 @@
  * Loco php export - Constant definitions
  * Project: Samples
  * Release: Working version
- * Modules: All
+ * Tagged: All
  * Locale: de_DE, German
- * Exported at: Sat, 26 May 2012 11:44:35 +0100
- * Exported by: Tim Whitlock  
+ * Exported at: Mon, 13 Aug 2012 16:55:50 +0100
+ * Exported by: Tim Whitlock 
  */
-// hello-world
+
+/* @const string hello-world */
 define('SAMPLES_HELLO_WORLD', 'Hallo Welt');
-// goodbye
+
+/* @const string goodbye */
 define('SAMPLES_GOODBYE', 'Auf Wiedersehen');

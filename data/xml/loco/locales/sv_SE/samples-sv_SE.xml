@@ -1,0 +1,14 @@
+<?xml version="1.0"?> 
+<!--
+ Loco xml export - Simple Loco format
+ Project: Samples
+ Release: Working version
+ Tagged: All
+ Locale: sv_SE, Swedish
+ Exported at: Mon, 13 Aug 2012 16:55:37 +0100
+ Exported by: Tim Whitlock 
+-->
+<translations id="sv_SE" locale="Swedish"> 
+    <asset id="hello-world" type="text" mime="text/plain">Hallå Världen</asset> 
+    <asset id="goodbye" type="text" mime="text/plain">Adjö</asset> 
+</translations>

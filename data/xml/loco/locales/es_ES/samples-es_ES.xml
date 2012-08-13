@@ -1,0 +1,14 @@
+<?xml version="1.0"?> 
+<!--
+ Loco xml export - Simple Loco format
+ Project: Samples
+ Release: Working version
+ Tagged: All
+ Locale: es_ES, Spanish
+ Exported at: Mon, 13 Aug 2012 16:55:37 +0100
+ Exported by: Tim Whitlock 
+-->
+<translations id="es_ES" locale="Spanish"> 
+    <asset id="hello-world" type="text" mime="text/plain">Hola mundo</asset> 
+    <asset id="goodbye" type="text" mime="text/plain">Adiós</asset> 
+</translations>

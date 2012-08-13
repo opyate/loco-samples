@@ -1,10 +1,10 @@
-# Loco yaml export - Nested object (Ruby on Rails)
+# Loco yaml export - Nested YAML object (Ruby on Rails)
 # Project: Samples
 # Release: Working version
-# Modules: All
+# Tagged: All
 # Locale: en_GB, English (UK)
-# Exported at: Sat, 26 May 2012 11:44:28 +0100
-# Exported by: Tim Whitlock 
+# Exported at: Mon, 13 Aug 2012 16:55:40 +0100
+# Exported by: Tim Whitlock
 ---
 en:
   samples:

@@ -1,0 +1,14 @@
+<?xml version="1.0"?> 
+<!--
+ Loco xml export - Simple Loco format
+ Project: Samples
+ Release: Working version
+ Tagged: All
+ Locale: fr_FR, French
+ Exported at: Mon, 13 Aug 2012 16:55:36 +0100
+ Exported by: Tim Whitlock 
+-->
+<translations id="fr_FR" locale="French"> 
+    <asset id="hello-world" type="text" mime="text/plain">Bonjour tout le monde</asset> 
+    <asset id="goodbye" type="text" mime="text/plain">Au revoir</asset> 
+</translations>

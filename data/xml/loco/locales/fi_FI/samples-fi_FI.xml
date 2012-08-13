@@ -1,0 +1,14 @@
+<?xml version="1.0"?> 
+<!--
+ Loco xml export - Simple Loco format
+ Project: Samples
+ Release: Working version
+ Tagged: All
+ Locale: fi_FI, Finnish
+ Exported at: Mon, 13 Aug 2012 16:55:38 +0100
+ Exported by: Tim Whitlock 
+-->
+<translations id="fi_FI" locale="Finnish"> 
+    <asset id="hello-world" type="text" mime="text/plain">Hei Maailma</asset> 
+    <asset id="goodbye" type="text" mime="text/plain">Näkemiin</asset> 
+</translations>

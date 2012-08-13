@@ -4,10 +4,10 @@
  Loco xml export - XLIFF - Localisation Interchange File Format
  Project: Samples
  Release: Working version
- Modules: All
+ Tagged: All
  Locale: it_IT, Italian
- Exported at: Sat, 26 May 2012 11:44:33 +0100
- Exported by: Tim Whitlock  
+ Exported at: Mon, 13 Aug 2012 16:55:35 +0100
+ Exported by: Tim Whitlock 
 -->
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2"> 
     <file source-language="en-GB" datatype="plaintext" original="">
@@ -25,4 +25,5 @@
                 <target xml:lang="it-IT">Arrivederci</target>
             </trans-unit>
         </body>
-    </file></xliff>
+    </file> 
+</xliff>
