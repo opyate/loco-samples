@@ -11,25 +11,38 @@ require 'utils/inc-example-functions.php';
 $locale = example_current_locale();
 
 // Language packs are in the data directory, under xml/tmx
-$localepath = '../../../data/xml/tmx/locales/'.$locale.'/samples-'.$locale.'.xml';
+$localepath = '../../../data/xml/tmx/locales/'.$locale.'/samples-'.$locale.'.tmx';
 $localepath = realpath($localepath) and file_exists($localepath) or die('Cannot find the tmx locale file');
 
 
-// Extract key/value pairs from TMX file
+// Extract key/value pairs from TMX file using DOM extension
+// This is slow. In reality you would pre-load transations into a data store or cache.
+//
+$Doc = new DOMDocument('1.0','UTF-8');
+$Doc->preserveWhiteSpace = false;
+$Doc->load( $localepath, LIBXML_DTDVALID );
+
 $messages = array();
-$tmx = simplexml_load_file($localepath);
-foreach( $tmx->body->tu as $tu ){
-    foreach( $tu->tuv as $tuv ){
-        // node value is inside a <seg> element
-        $value = $tuv->seg->__toString();
-        // taking first <tuv> node as key
-        if( isset($key) ){
-            $messages[$key] = $value;
-            unset($key);
+$xpath = new DOMXPath($Doc);
+foreach( $xpath->query('//tmx/body/tu') as $tu ){
+    // We're looking up translation by its ID, not by source language
+    $id = $tu->getAttribute('tuid');
+    $messages[$id] = $id;
+    // establish which <tuv> node holds the key and value
+    foreach( $tu->getElementsByTagName('tuv') as $tuv ){
+        // we're only interested in our target locale as we're lookin up by ID
+        if( $locale !== $tuv->getAttribute('xml:lang') ){
             continue;
         }
-        // taking second as translation
-        $key = $value;
+        // value is held in <seg> node which should be first child
+        $seg = $tuv->firstChild;
+        if( ! ( $seg instanceof DOMElement ) || 'seg' !== strtolower($seg->tagName) ){
+            trigger_error('Expecting <seg> element as first child of <tuv> element');
+            break;
+        }
+        // seg element may contain CDATA node, or it may in fact contain further markup
+        // easiest thing to do here is simply trim whitespace - CDATA should collapse
+        $messages[$id] = trim( $seg->nodeValue );
     }
 }
 

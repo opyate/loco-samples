@@ -21,7 +21,7 @@ $localepath = realpath($localepath) and file_exists($localepath) or die('Cannot 
 $messages = yaml_parse_file( $localepath );
 
 // Translate keys with a simple array lookup
-$key = 'hello_world';
+$key = 'hello-world';
 $message = $messages[$key] or $message = $key;
 
 

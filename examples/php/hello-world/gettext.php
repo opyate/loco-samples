@@ -24,8 +24,8 @@ bindtextdomain( $domain, $localepath );
 function_exists('bind_textdomain_codeset') and bind_textdomain_codeset( $domain, 'UTF-8');
 textdomain( $domain ); 
 
-// Translate keys with the "_" or "gettext" functions
-$message = _('hello-world');
+// Translate source texts with the "_" or "gettext" functions
+$message = _('Hello World');
 
 
 ?><!DOCTYPE html>

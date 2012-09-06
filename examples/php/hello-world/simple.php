@@ -19,7 +19,7 @@ $localepath = realpath($localepath) and file_exists($localepath) or die('Cannot 
 $messages = include $localepath;
 
 // Translate keys with a simple array lookup
-$key = 'samples_hello_world';
+$key = 'hello-world';
 $message = $messages[$key] or $message = $key;
 
 
