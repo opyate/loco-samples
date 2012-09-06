@@ -1,42 +1,42 @@
 <?xml version="1.0"?> 
 <!DOCTYPE tmx SYSTEM "http://www.ttt.org/oscarstandards/tmx/tmx14.dtd">
 <!--
- Loco xml export - TMX - Translation Memory eXchange
+ Loco xml export: TMX - Translation Memory eXchange
  Project: Samples
  Release: Working version
  Tagged: All
- Locale: fi_FI, Finnish
- Exported at: Mon, 13 Aug 2012 16:55:33 +0100
+ Locales: en_GB, fi_FI
+ Exported at: Thu, 06 Sep 2012 13:37:43 +0100
  Exported by: Tim Whitlock 
 -->
 <tmx version="1.4">
-    <header creationtoolversion="1.0.0" segtype="sentence" o-tmf="" creationtool="Loco" adminlang="en-gb" srclang="en" datatype="" o-encoding="utf-8">
-        <note>Loco export</note>
+    <header creationtoolversion="1.0.0" segtype="sentence" o-tmf="" creationtool="Loco" adminlang="en_GB" srclang="en_GB" datatype="" o-encoding="utf-8">
+        <note>Loco export of Samples</note>
     </header>
     <body> 
-       <tu tuid="hello-world" datatype="plaintext">
-           <tuv xml:lang="en">
+       <tu tuid="hello-world"> 
+           <tuv xml:lang="en_GB" datatype="plaintext">
                <seg>
-                   <![CDATA[hello-world]]>
+                   <![CDATA[Hello World]]>
                </seg>
-           </tuv>
-           <tuv xml:lang="fi">
+           </tuv> 
+           <tuv xml:lang="fi_FI" datatype="plaintext">
                <seg>
                    <![CDATA[Hei Maailma]]>
                </seg>
-           </tuv>
+           </tuv> 
        </tu> 
-       <tu tuid="goodbye" datatype="plaintext">
-           <tuv xml:lang="en">
+       <tu tuid="goodbye"> 
+           <tuv xml:lang="en_GB" datatype="plaintext">
                <seg>
-                   <![CDATA[goodbye]]>
+                   <![CDATA[Goodbye]]>
                </seg>
-           </tuv>
-           <tuv xml:lang="fi">
+           </tuv> 
+           <tuv xml:lang="fi_FI" datatype="plaintext">
                <seg>
                    <![CDATA[Näkemiin]]>
                </seg>
-           </tuv>
+           </tuv> 
        </tu> 
    </body>
 </tmx>

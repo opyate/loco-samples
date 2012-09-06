@@ -1,13 +1,13 @@
-# Loco yaml export - Nested YAML object (Ruby on Rails)
+# Loco yaml export: Nested YAML object (Ruby on Rails)
 # Project: Samples
 # Release: Working version
 # Tagged: All
 # Locale: sv_SE, Swedish
-# Exported at: Mon, 13 Aug 2012 16:55:40 +0100
+# Exported at: Thu, 06 Sep 2012 13:37:53 +0100
 # Exported by: Tim Whitlock
 ---
 sv:
   samples:
-    hello_world: Hallå Världen
+    hello-world: Hallå Världen
     goodbye: Adjö
 ...

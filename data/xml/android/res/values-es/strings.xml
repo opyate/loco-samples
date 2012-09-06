@@ -1,0 +1,14 @@
+<?xml version="1.0"?> 
+<!--
+ Loco xml export: Android string resources
+ Project: Samples
+ Release: Working version
+ Tagged: All
+ Locale: es_ES, Spanish
+ Exported at: Thu, 06 Sep 2012 13:37:46 +0100
+ Exported by: Tim Whitlock 
+-->
+<resources> 
+    <string name="hello-world">Hola mundo</string> 
+    <string name="goodbye">Adiós</string> 
+</resources>

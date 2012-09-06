@@ -1,13 +1,13 @@
-# Loco yaml export - Nested YAML object (Ruby on Rails)
+# Loco yaml export: Nested YAML object (Ruby on Rails)
 # Project: Samples
 # Release: Working version
 # Tagged: All
 # Locale: fi_FI, Finnish
-# Exported at: Mon, 13 Aug 2012 16:55:41 +0100
+# Exported at: Thu, 06 Sep 2012 13:37:54 +0100
 # Exported by: Tim Whitlock
 ---
 fi:
   samples:
-    hello_world: Hei Maailma
+    hello-world: Hei Maailma
     goodbye: Näkemiin
 ...

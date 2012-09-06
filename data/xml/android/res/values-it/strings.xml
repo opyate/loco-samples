@@ -1,0 +1,14 @@
+<?xml version="1.0"?> 
+<!--
+ Loco xml export: Android string resources
+ Project: Samples
+ Release: Working version
+ Tagged: All
+ Locale: it_IT, Italian
+ Exported at: Thu, 06 Sep 2012 13:37:45 +0100
+ Exported by: Tim Whitlock 
+-->
+<resources> 
+    <string name="hello-world">Ciao a tutti</string> 
+    <string name="goodbye">Arrivederci</string> 
+</resources>

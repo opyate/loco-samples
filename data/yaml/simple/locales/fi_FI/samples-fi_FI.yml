@@ -1,11 +1,11 @@
-# Loco yaml export - Simple YAML object (Symfony)
+# Loco yaml export: Simple YAML object (Symfony)
 # Project: Samples
 # Release: Working version
 # Tagged: All
 # Locale: fi_FI, Finnish
-# Exported at: Mon, 13 Aug 2012 16:55:39 +0100
+# Exported at: Thu, 06 Sep 2012 13:37:52 +0100
 # Exported by: Tim Whitlock
 ---
-hello_world: Hei Maailma
+hello-world: Hei Maailma
 goodbye: Näkemiin
 ...
