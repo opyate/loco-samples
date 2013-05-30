@@ -1,0 +1,27 @@
+<?xml version="1.0"?> 
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+<!--
+ Loco xml export: XLIFF - Localisation Interchange File Format
+ Project: Samples
+ Release: Working copy
+ Tagged: All
+ Locale: de_DE, German
+ Exported at: Thu, 30 May 2013 16:49:57 +0100
+ Exported by: Tim Whitlock 
+-->
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2"> 
+    <file source-language="en_GB" target-language="de_DE" datatype="plaintext" original="">
+        <body>
+            <trans-unit id="1" resname="hello-world"> 
+                <target xml:lang="de_DE">Hallo Welt</target> 
+            </trans-unit>
+        </body>
+    </file> 
+    <file source-language="en_GB" target-language="de_DE" datatype="plaintext" original="">
+        <body>
+            <trans-unit id="2" resname="goodbye"> 
+                <target xml:lang="de_DE">Auf Wiedersehen</target> 
+            </trans-unit>
+        </body>
+    </file> 
+</xliff>

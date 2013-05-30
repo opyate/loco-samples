@@ -1,11 +1,11 @@
 <?php 
 /**
- * Loco php export: Constant definitions
+ * Loco php export: Constants
  * Project: Samples
- * Release: Working version
+ * Release: Working copy
  * Tagged: All
  * Locale: sv_SE, Swedish
- * Exported at: Thu, 06 Sep 2012 13:38:05 +0100
+ * Exported at: Thu, 30 May 2013 16:50:34 +0100
  * Exported by: Tim Whitlock 
  */
 

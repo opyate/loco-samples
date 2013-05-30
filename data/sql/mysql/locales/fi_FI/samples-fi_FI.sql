@@ -1,10 +1,10 @@
 
--- Loco sql export: MySQL INSERT statements
+-- Loco sql export: MySQL inserts
 -- Project: Samples
--- Release: Working version
+-- Release: Working copy
 -- Tagged: All
 -- Locale: fi_FI, Finnish
--- Exported at: Thu, 06 Sep 2012 13:37:58 +0100
+-- Exported at: Thu, 30 May 2013 16:50:15 +0100
 -- Exported by: Tim Whitlock 
 
 SET @saved_cs_client     = @@character_set_client;

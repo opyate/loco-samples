@@ -1,15 +1,41 @@
 /**
- * Loco js export: JavaScript lookup function
+ * Loco js export: JavaScript function
  * Project: Samples
- * Release: Working version
+ * Release: Working copy
  * Tagged: All
  * Locale: de_DE, German
- * Exported at: Thu, 06 Sep 2012 13:38:01 +0100
+ * Exported at: Thu, 30 May 2013 16:50:19 +0100
  * Exported by: Tim Whitlock 
  */
 var t = function( pairs ){
-    return function( key ){
-        return pairs[key] || key; 
+    
+    // named plural forms according to Unicode 
+    var pluralForms = ["one","other"];
+    
+    // calc numeric index of a plural form (0-1)
+    function pluralIndex( n ){
+        return Number( (n != 1) );
+    }
+
+    // expose public t() function
+    return function( msgid1, msgid2, n ){
+        var value  = pairs[msgid1];
+        if( arguments.length < 2 ){
+            if( null == value ){
+                return msgid1||'';
+            }
+            if( 'string' !== typeof value ){
+                value = value.one;
+            }
+            return value;
+        }
+        // plural operation
+        n = pluralIndex( n );
+        value = value ? value[ pluralForms[n]||'other' ] : null;
+        if( null == value ){
+            return n ? msgid2||msgid1 : msgid1;
+        }
+        return value;
     }
 }(
     {"hello-world":"Hallo Welt","goodbye":"Auf Wiedersehen"}
