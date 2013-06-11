@@ -2,9 +2,9 @@
 -- Loco sql export: MySQL inserts
 -- Project: Samples
 -- Release: Working copy
--- Locale: en_GB, English (UK)
 -- Locales: en_GB, fr_FR, it_IT, de_DE, es_ES, sv_SE, no_NO, fi_FI, da_DK
--- Exported at: Tue, 11 Jun 2013 21:26:01 +0100 
+-- Exported by: Tim Whitlock
+-- Exported at: Tue, 11 Jun 2013 21:43:48 +0100 
 
 SET @saved_cs_client     = @@character_set_client;
 SET character_set_client = utf8;

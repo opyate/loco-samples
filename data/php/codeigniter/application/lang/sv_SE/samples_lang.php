@@ -5,7 +5,7 @@
  * Release: Working copy
  * Locale: sv_SE, Swedish
  * Exported by: Tim Whitlock
- * Exported at: Tue, 11 Jun 2013 21:26:20 +0100 
+ * Exported at: Tue, 11 Jun 2013 21:44:01 +0100 
  */
 $lang['samples_goodbye'] = 'Adjö';
 $lang['samples_hello_world'] = 'Hallå Världen';

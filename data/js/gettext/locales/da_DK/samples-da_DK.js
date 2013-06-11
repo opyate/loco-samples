@@ -4,7 +4,7 @@
  * Release: Working copy
  * Locale: da_DK, Danish
  * Exported by: Tim Whitlock
- * Exported at: Tue, 11 Jun 2013 21:26:13 +0100 
+ * Exported at: Tue, 11 Jun 2013 21:43:56 +0100 
  */
 var gt = new Gettext( {
     domain: "samples",

@@ -4,7 +4,7 @@
 -- Release: Working copy
 -- Locale: fi_FI, Finnish
 -- Exported by: Tim Whitlock
--- Exported at: Tue, 11 Jun 2013 21:26:00 +0100 
+-- Exported at: Tue, 11 Jun 2013 21:43:48 +0100 
 
 SET @saved_cs_client     = @@character_set_client;
 SET character_set_client = utf8;

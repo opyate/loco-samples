@@ -4,7 +4,7 @@
  * Release: Working copy
  * Locale: no_NO, Norwegian
  * Exported by: Tim Whitlock
- * Exported at: Tue, 11 Jun 2013 21:26:07 +0100 
+ * Exported at: Tue, 11 Jun 2013 21:43:52 +0100 
  */
 var t = function( pairs ){
     

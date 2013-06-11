@@ -4,9 +4,9 @@
  Loco xml export: TMX - Translation Memory eXchange
  Project: Samples
  Release: Working copy
- Locale: en_GB, English (UK)
  Locales: en_GB, de_DE
- Exported at: Tue, 11 Jun 2013 21:25:33 +0100 
+ Exported by: Tim Whitlock
+ Exported at: Tue, 11 Jun 2013 21:43:29 +0100 
 -->
 <tmx version="1.4">
     <header creationtoolversion="1.0.0" segtype="sentence" o-tmf="" creationtool="Loco" adminlang="en_GB" srclang="en_GB" datatype="" o-encoding="utf-8">

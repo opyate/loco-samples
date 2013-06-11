@@ -5,7 +5,7 @@
  * Release: Working copy
  * Locale: da_DK, Danish
  * Exported by: Tim Whitlock
- * Exported at: Tue, 11 Jun 2013 21:26:16 +0100 
+ * Exported at: Tue, 11 Jun 2013 21:43:58 +0100 
  */
 return array (
   'goodbye' => 'Farvel',

@@ -6,7 +6,7 @@
  Release: Working copy
  Locale: sv_SE, Swedish
  Exported by: Tim Whitlock
- Exported at: Tue, 11 Jun 2013 21:25:47 +0100 
+ Exported at: Tue, 11 Jun 2013 21:43:37 +0100 
 --> 
 <TS version="2.0" language="sv_SE"> 
     <context>

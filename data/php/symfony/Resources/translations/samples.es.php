@@ -5,7 +5,7 @@
  * Release: Working copy
  * Locale: es_ES, Spanish
  * Exported by: Tim Whitlock
- * Exported at: Tue, 11 Jun 2013 21:26:17 +0100 
+ * Exported at: Tue, 11 Jun 2013 21:43:59 +0100 
  */
 return array (
   'goodbye' => 'Adiós',
