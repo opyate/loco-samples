@@ -6,7 +6,7 @@
  Release: Working copy
  Locale: it_IT, Italian
  Exported by: Tim Whitlock
- Exported at: Tue, 11 Jun 2013 10:27:58 +0100 
+ Exported at: Tue, 11 Jun 2013 10:44:51 +0100 
 --> 
 <TS version="2.0" language="it_IT"> 
     <context>

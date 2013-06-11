@@ -3,11 +3,11 @@
  Loco xml export: Tizen string table
  Project: Samples
  Release: Working copy
- Locale: da_DK, Danish
+ Locale: en_GB, English (UK)
  Exported by: Tim Whitlock
- Exported at: Tue, 11 Jun 2013 10:28:01 +0100 
+ Exported at: Tue, 11 Jun 2013 10:44:53 +0100 
 --> 
 <string_table Bversion="" Dversion="20100701"> 
-    <text id="goodbye">Farvel</text> 
-    <text id="hello-world">Hej Verden</text> 
+    <text id="goodbye">Goodbye</text> 
+    <text id="hello-world">Hello World</text> 
 </string_table>
