@@ -4,23 +4,22 @@
  Loco xml export: XLIFF - Localisation Interchange File Format
  Project: Samples
  Release: Working copy
- Tagged: All
  Locale: it_IT, Italian
- Exported at: Thu, 30 May 2013 16:49:57 +0100
- Exported by: Tim Whitlock 
+ Exported by: Tim Whitlock
+ Exported at: Tue, 11 Jun 2013 10:27:52 +0100 
 -->
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2"> 
     <file source-language="en_GB" target-language="it_IT" datatype="plaintext" original="">
         <body>
-            <trans-unit id="1" resname="hello-world"> 
-                <target xml:lang="it_IT">Ciao a tutti</target> 
+            <trans-unit id="1" resname="goodbye"> 
+                <target xml:lang="it_IT">Arrivederci</target> 
             </trans-unit>
         </body>
     </file> 
     <file source-language="en_GB" target-language="it_IT" datatype="plaintext" original="">
         <body>
-            <trans-unit id="2" resname="goodbye"> 
-                <target xml:lang="it_IT">Arrivederci</target> 
+            <trans-unit id="2" resname="hello-world"> 
+                <target xml:lang="it_IT">Ciao a tutti</target> 
             </trans-unit>
         </body>
     </file> 

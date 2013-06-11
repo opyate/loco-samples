@@ -4,63 +4,15 @@
  Loco xml export: TMX - Translation Memory eXchange
  Project: Samples
  Release: Working copy
- Tagged: All
+ Locale: en_GB, English (UK)
  Locales: en_GB, en_GB, fr_FR, it_IT, de_DE, es_ES, sv_SE, no_NO, fi_FI, da_DK
- Exported at: Thu, 30 May 2013 16:49:56 +0100
- Exported by: Tim Whitlock 
+ Exported at: Tue, 11 Jun 2013 10:27:51 +0100 
 -->
 <tmx version="1.4">
     <header creationtoolversion="1.0.0" segtype="sentence" o-tmf="" creationtool="Loco" adminlang="en_GB" srclang="en_GB" datatype="" o-encoding="utf-8">
         <note>Loco export of Samples</note>
     </header>
     <body> 
-       <tu tuid="hello-world"> 
-           <tuv xml:lang="en_GB" datatype="plaintext">
-               <seg>
-                   <![CDATA[Hello World]]>
-               </seg>
-           </tuv> 
-           <tuv xml:lang="fr_FR" datatype="plaintext">
-               <seg>
-                   <![CDATA[Bonjour tout le monde]]>
-               </seg>
-           </tuv> 
-           <tuv xml:lang="it_IT" datatype="plaintext">
-               <seg>
-                   <![CDATA[Ciao a tutti]]>
-               </seg>
-           </tuv> 
-           <tuv xml:lang="de_DE" datatype="plaintext">
-               <seg>
-                   <![CDATA[Hallo Welt]]>
-               </seg>
-           </tuv> 
-           <tuv xml:lang="es_ES" datatype="plaintext">
-               <seg>
-                   <![CDATA[Hola mundo]]>
-               </seg>
-           </tuv> 
-           <tuv xml:lang="sv_SE" datatype="plaintext">
-               <seg>
-                   <![CDATA[Hallå Världen]]>
-               </seg>
-           </tuv> 
-           <tuv xml:lang="no_NO" datatype="plaintext">
-               <seg>
-                   <![CDATA[Hallo Verden]]>
-               </seg>
-           </tuv> 
-           <tuv xml:lang="fi_FI" datatype="plaintext">
-               <seg>
-                   <![CDATA[Hei Maailma]]>
-               </seg>
-           </tuv> 
-           <tuv xml:lang="da_DK" datatype="plaintext">
-               <seg>
-                   <![CDATA[Hej Verden]]>
-               </seg>
-           </tuv> 
-       </tu> 
        <tu tuid="goodbye"> 
            <tuv xml:lang="en_GB" datatype="plaintext">
                <seg>
@@ -105,6 +57,53 @@
            <tuv xml:lang="da_DK" datatype="plaintext">
                <seg>
                    <![CDATA[Farvel]]>
+               </seg>
+           </tuv> 
+       </tu> 
+       <tu tuid="hello-world"> 
+           <tuv xml:lang="en_GB" datatype="plaintext">
+               <seg>
+                   <![CDATA[Hello World]]>
+               </seg>
+           </tuv> 
+           <tuv xml:lang="fr_FR" datatype="plaintext">
+               <seg>
+                   <![CDATA[Bonjour tout le monde]]>
+               </seg>
+           </tuv> 
+           <tuv xml:lang="it_IT" datatype="plaintext">
+               <seg>
+                   <![CDATA[Ciao a tutti]]>
+               </seg>
+           </tuv> 
+           <tuv xml:lang="de_DE" datatype="plaintext">
+               <seg>
+                   <![CDATA[Hallo Welt]]>
+               </seg>
+           </tuv> 
+           <tuv xml:lang="es_ES" datatype="plaintext">
+               <seg>
+                   <![CDATA[Hola mundo]]>
+               </seg>
+           </tuv> 
+           <tuv xml:lang="sv_SE" datatype="plaintext">
+               <seg>
+                   <![CDATA[Hallå Världen]]>
+               </seg>
+           </tuv> 
+           <tuv xml:lang="no_NO" datatype="plaintext">
+               <seg>
+                   <![CDATA[Hallo Verden]]>
+               </seg>
+           </tuv> 
+           <tuv xml:lang="fi_FI" datatype="plaintext">
+               <seg>
+                   <![CDATA[Hei Maailma]]>
+               </seg>
+           </tuv> 
+           <tuv xml:lang="da_DK" datatype="plaintext">
+               <seg>
+                   <![CDATA[Hej Verden]]>
                </seg>
            </tuv> 
        </tu> 

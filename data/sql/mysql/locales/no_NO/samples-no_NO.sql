@@ -2,10 +2,9 @@
 -- Loco sql export: MySQL inserts
 -- Project: Samples
 -- Release: Working copy
--- Tagged: All
 -- Locale: no_NO, Norwegian
--- Exported at: Thu, 30 May 2013 16:50:14 +0100
--- Exported by: Tim Whitlock 
+-- Exported by: Tim Whitlock
+-- Exported at: Tue, 11 Jun 2013 10:28:09 +0100 
 
 SET @saved_cs_client     = @@character_set_client;
 SET character_set_client = utf8;
@@ -19,8 +18,8 @@ SET character_set_client = utf8;
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
 */
 
-INSERT INTO `loco_samples` (`id`,`no_NO`) VALUES ('hello-world','Hallo Verden') ON DUPLICATE KEY UPDATE `no_NO`=VALUES(`no_NO`);
 INSERT INTO `loco_samples` (`id`,`no_NO`) VALUES ('goodbye','Farvel') ON DUPLICATE KEY UPDATE `no_NO`=VALUES(`no_NO`);
+INSERT INTO `loco_samples` (`id`,`no_NO`) VALUES ('hello-world','Hallo Verden') ON DUPLICATE KEY UPDATE `no_NO`=VALUES(`no_NO`);
  
 
 SET character_set_client = @saved_cs_client;

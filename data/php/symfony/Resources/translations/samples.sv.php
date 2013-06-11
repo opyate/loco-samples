@@ -3,12 +3,11 @@
  * Loco php export: Symfony (PHP array)
  * Project: Samples
  * Release: Working copy
- * Tagged: All
  * Locale: sv_SE, Swedish
- * Exported at: Thu, 30 May 2013 16:50:29 +0100
- * Exported by: Tim Whitlock 
+ * Exported by: Tim Whitlock
+ * Exported at: Tue, 11 Jun 2013 10:28:21 +0100 
  */
 return array (
-  'hello-world' => 'Hallå Världen',
   'goodbye' => 'Adjö',
+  'hello-world' => 'Hallå Världen',
 );

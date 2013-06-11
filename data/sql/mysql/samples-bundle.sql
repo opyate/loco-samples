@@ -2,10 +2,9 @@
 -- Loco sql export: MySQL inserts
 -- Project: Samples
 -- Release: Working copy
--- Tagged: All
+-- Locale: en_GB, English (UK)
 -- Locales: en_GB, fr_FR, it_IT, de_DE, es_ES, sv_SE, no_NO, fi_FI, da_DK
--- Exported at: Thu, 30 May 2013 16:50:15 +0100
--- Exported by: Tim Whitlock 
+-- Exported at: Tue, 11 Jun 2013 10:28:10 +0100 
 
 SET @saved_cs_client     = @@character_set_client;
 SET character_set_client = utf8;
@@ -27,8 +26,8 @@ SET character_set_client = utf8;
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
 */
 
-INSERT INTO `loco_samples` (`id`,`en_GB`,`fr_FR`,`it_IT`,`de_DE`,`es_ES`,`sv_SE`,`no_NO`,`fi_FI`,`da_DK`) VALUES ('hello-world','Hello World','Bonjour tout le monde','Ciao a tutti','Hallo Welt','Hola mundo','Hallå Världen','Hallo Verden','Hei Maailma','Hej Verden') ON DUPLICATE KEY UPDATE `en_GB`=VALUES(`en_GB`), `fr_FR`=VALUES(`fr_FR`), `it_IT`=VALUES(`it_IT`), `de_DE`=VALUES(`de_DE`), `es_ES`=VALUES(`es_ES`), `sv_SE`=VALUES(`sv_SE`), `no_NO`=VALUES(`no_NO`), `fi_FI`=VALUES(`fi_FI`), `da_DK`=VALUES(`da_DK`);
 INSERT INTO `loco_samples` (`id`,`en_GB`,`fr_FR`,`it_IT`,`de_DE`,`es_ES`,`sv_SE`,`no_NO`,`fi_FI`,`da_DK`) VALUES ('goodbye','Goodbye','Au revoir','Arrivederci','Auf Wiedersehen','Adiós','Adjö','Farvel','Näkemiin','Farvel') ON DUPLICATE KEY UPDATE `en_GB`=VALUES(`en_GB`), `fr_FR`=VALUES(`fr_FR`), `it_IT`=VALUES(`it_IT`), `de_DE`=VALUES(`de_DE`), `es_ES`=VALUES(`es_ES`), `sv_SE`=VALUES(`sv_SE`), `no_NO`=VALUES(`no_NO`), `fi_FI`=VALUES(`fi_FI`), `da_DK`=VALUES(`da_DK`);
+INSERT INTO `loco_samples` (`id`,`en_GB`,`fr_FR`,`it_IT`,`de_DE`,`es_ES`,`sv_SE`,`no_NO`,`fi_FI`,`da_DK`) VALUES ('hello-world','Hello World','Bonjour tout le monde','Ciao a tutti','Hallo Welt','Hola mundo','Hallå Världen','Hallo Verden','Hei Maailma','Hej Verden') ON DUPLICATE KEY UPDATE `en_GB`=VALUES(`en_GB`), `fr_FR`=VALUES(`fr_FR`), `it_IT`=VALUES(`it_IT`), `de_DE`=VALUES(`de_DE`), `es_ES`=VALUES(`es_ES`), `sv_SE`=VALUES(`sv_SE`), `no_NO`=VALUES(`no_NO`), `fi_FI`=VALUES(`fi_FI`), `da_DK`=VALUES(`da_DK`);
  
 
 SET character_set_client = @saved_cs_client;

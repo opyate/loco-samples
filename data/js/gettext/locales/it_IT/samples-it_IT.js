@@ -2,14 +2,13 @@
  * Loco js export: Gettext.js
  * Project: Samples
  * Release: Working copy
- * Tagged: All
  * Locale: it_IT, Italian
- * Exported at: Thu, 30 May 2013 16:50:24 +0100
- * Exported by: Tim Whitlock 
+ * Exported by: Tim Whitlock
+ * Exported at: Tue, 11 Jun 2013 10:28:16 +0100 
  */
 var gt = new Gettext( {
     domain: "samples",
-    locale_data: {"samples":{"":{"lang":"Italian","plural-forms":"nplurals=2; plural=(n != 1)"},"msgid":[null,"msgstr"],"Hello World":[null,"Ciao a tutti"],"Goodbye":[null,"Arrivederci"]}} 
+    locale_data: {"samples":{"":{"lang":"Italian","plural-forms":"nplurals=2; plural=(n != 1)"},"msgid":[null,"msgstr"],"Goodbye":[null,"Arrivederci"],"Hello World":[null,"Ciao a tutti"]}} 
 } );
 
 function _( msgid ){

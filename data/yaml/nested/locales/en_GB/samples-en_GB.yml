@@ -1,13 +1,12 @@
 # Loco yaml export: Nested YAML object (Ruby on Rails)
 # Project: Samples
 # Release: Working copy
-# Tagged: All
 # Locale: en_GB, English (UK)
-# Exported at: Thu, 30 May 2013 16:50:06 +0100
 # Exported by: Tim Whitlock
+# Exported at: Tue, 11 Jun 2013 10:28:03 +0100
 ---
-en:
+en_GB:
   samples:
-    hello-world: Hello World
     goodbye: Goodbye
+    hello-world: Hello World
 ...

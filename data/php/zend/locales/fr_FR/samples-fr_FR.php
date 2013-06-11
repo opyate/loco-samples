@@ -3,12 +3,11 @@
  * Loco php export: Zend (PHP array)
  * Project: Samples
  * Release: Working copy
- * Tagged: All
  * Locale: fr_FR, French
- * Exported at: Thu, 30 May 2013 16:50:26 +0100
- * Exported by: Tim Whitlock 
+ * Exported by: Tim Whitlock
+ * Exported at: Tue, 11 Jun 2013 10:28:18 +0100 
  */
 return array (
-  'hello-world' => 'Bonjour tout le monde',
   'goodbye' => 'Au revoir',
+  'hello-world' => 'Bonjour tout le monde',
 );

@@ -4,10 +4,9 @@
   Loco xml export: ResX - .NET resources
   Project: Samples
   Release: Working copy
-  Tagged: All
   Locale: no_NO, Norwegian
-  Exported at: Thu, 30 May 2013 16:50:01 +0100
-  Exported by: Tim Whitlock 
+  Exported by: Tim Whitlock
+  Exported at: Tue, 11 Jun 2013 10:27:55 +0100 
   -->
   <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
     <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
@@ -73,10 +72,10 @@
   <metadata name="locoLocaleName" xml:space="preserve">
     <value>Norwegian</value>
   </metadata> 
-  <data name="hello-world" xml:space="preserve"> 
-    <value>Hallo Verden</value> 
-  </data> 
   <data name="goodbye" xml:space="preserve"> 
     <value>Farvel</value> 
+  </data> 
+  <data name="hello-world" xml:space="preserve"> 
+    <value>Hallo Verden</value> 
   </data> 
 </root>

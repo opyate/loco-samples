@@ -2,14 +2,13 @@
  * Loco js export: Gettext.js
  * Project: Samples
  * Release: Working copy
- * Tagged: All
  * Locale: da_DK, Danish
- * Exported at: Thu, 30 May 2013 16:50:26 +0100
- * Exported by: Tim Whitlock 
+ * Exported by: Tim Whitlock
+ * Exported at: Tue, 11 Jun 2013 10:28:18 +0100 
  */
 var gt = new Gettext( {
     domain: "samples",
-    locale_data: {"samples":{"":{"lang":"Danish","plural-forms":"nplurals=2; plural=(n != 1)"},"msgid":[null,"msgstr"],"Hello World":[null,"Hej Verden"],"Goodbye":[null,"Farvel"]}} 
+    locale_data: {"samples":{"":{"lang":"Danish","plural-forms":"nplurals=2; plural=(n != 1)"},"msgid":[null,"msgstr"],"Goodbye":[null,"Farvel"],"Hello World":[null,"Hej Verden"]}} 
 } );
 
 function _( msgid ){

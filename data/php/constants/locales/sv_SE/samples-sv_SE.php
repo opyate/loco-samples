@@ -3,14 +3,13 @@
  * Loco php export: Constants
  * Project: Samples
  * Release: Working copy
- * Tagged: All
  * Locale: sv_SE, Swedish
- * Exported at: Thu, 30 May 2013 16:50:34 +0100
- * Exported by: Tim Whitlock 
+ * Exported by: Tim Whitlock
+ * Exported at: Tue, 11 Jun 2013 10:28:25 +0100 
  */
-
-/* @const string hello-world */
-define('SAMPLES_HELLO_WORLD', 'Hallå Världen');
 
 /* @const string goodbye */
 define('SAMPLES_GOODBYE', 'Adjö');
+
+/* @const string hello-world */
+define('SAMPLES_HELLO_WORLD', 'Hallå Världen');

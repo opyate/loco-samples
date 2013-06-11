@@ -4,13 +4,12 @@
  Loco xml export: Java properties XML
  Project: Samples
  Release: Working copy
- Tagged: All
  Locale: it_IT, Italian
- Exported at: Thu, 30 May 2013 16:50:45 +0100
- Exported by: Tim Whitlock 
+ Exported by: Tim Whitlock
+ Exported at: Tue, 11 Jun 2013 10:28:37 +0100 
 -->
 <properties>
     <comment>Loco export of Samples</comment> 
-    <entry key="hello-world">Ciao a tutti</entry> 
     <entry key="goodbye">Arrivederci</entry> 
+    <entry key="hello-world">Ciao a tutti</entry> 
 </properties>

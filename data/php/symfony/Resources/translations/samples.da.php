@@ -3,12 +3,11 @@
  * Loco php export: Symfony (PHP array)
  * Project: Samples
  * Release: Working copy
- * Tagged: All
  * Locale: da_DK, Danish
- * Exported at: Thu, 30 May 2013 16:50:30 +0100
- * Exported by: Tim Whitlock 
+ * Exported by: Tim Whitlock
+ * Exported at: Tue, 11 Jun 2013 10:28:22 +0100 
  */
 return array (
-  'hello-world' => 'Hej Verden',
   'goodbye' => 'Farvel',
+  'hello-world' => 'Hej Verden',
 );

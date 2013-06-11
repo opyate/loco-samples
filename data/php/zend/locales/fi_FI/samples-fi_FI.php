@@ -3,12 +3,11 @@
  * Loco php export: Zend (PHP array)
  * Project: Samples
  * Release: Working copy
- * Tagged: All
  * Locale: fi_FI, Finnish
- * Exported at: Thu, 30 May 2013 16:50:28 +0100
- * Exported by: Tim Whitlock 
+ * Exported by: Tim Whitlock
+ * Exported at: Tue, 11 Jun 2013 10:28:19 +0100 
  */
 return array (
-  'hello-world' => 'Hei Maailma',
   'goodbye' => 'Näkemiin',
+  'hello-world' => 'Hei Maailma',
 );

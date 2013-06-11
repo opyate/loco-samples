@@ -2,10 +2,9 @@
  * Loco js export: JavaScript function
  * Project: Samples
  * Release: Working copy
- * Tagged: All
  * Locale: fr_FR, French
- * Exported at: Thu, 30 May 2013 16:50:19 +0100
- * Exported by: Tim Whitlock 
+ * Exported by: Tim Whitlock
+ * Exported at: Tue, 11 Jun 2013 10:28:13 +0100 
  */
 var t = function( pairs ){
     
@@ -38,5 +37,5 @@ var t = function( pairs ){
         return value;
     }
 }(
-    {"hello-world":"Bonjour tout le monde","goodbye":"Au revoir"}
+    {"goodbye":"Au revoir","hello-world":"Bonjour tout le monde"} 
 );

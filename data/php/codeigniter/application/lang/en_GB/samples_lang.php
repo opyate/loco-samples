@@ -3,10 +3,9 @@
  * Loco php export: Code Igniter ($lang array)
  * Project: Samples
  * Release: Working copy
- * Tagged: All
  * Locale: en_GB, English (UK)
- * Exported at: Thu, 30 May 2013 16:50:30 +0100
- * Exported by: Tim Whitlock 
+ * Exported by: Tim Whitlock
+ * Exported at: Tue, 11 Jun 2013 10:28:22 +0100 
  */
-$lang['samples_hello_world'] = 'Hello World';
 $lang['samples_goodbye'] = 'Goodbye';
+$lang['samples_hello_world'] = 'Hello World';

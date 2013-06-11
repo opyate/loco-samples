@@ -2,10 +2,9 @@
  * Loco js export: JavaScript function
  * Project: Samples
  * Release: Working copy
- * Tagged: All
  * Locale: no_NO, Norwegian
- * Exported at: Thu, 30 May 2013 16:50:20 +0100
- * Exported by: Tim Whitlock 
+ * Exported by: Tim Whitlock
+ * Exported at: Tue, 11 Jun 2013 10:28:14 +0100 
  */
 var t = function( pairs ){
     
@@ -38,5 +37,5 @@ var t = function( pairs ){
         return value;
     }
 }(
-    {"hello-world":"Hallo Verden","goodbye":"Farvel"}
+    {"goodbye":"Farvel","hello-world":"Hallo Verden"} 
 );

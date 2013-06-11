@@ -1,14 +1,13 @@
-<?xml version="1.0"?> 
+<?xml version="1.0" encoding="utf-8"?>
 <!--
  Loco xml export: Android string resources
  Project: Samples
  Release: Working copy
- Tagged: All
  Locale: en_GB, English (UK)
- Exported at: Thu, 30 May 2013 16:49:52 +0100
- Exported by: Tim Whitlock 
+ Exported by: Tim Whitlock
+ Exported at: Tue, 11 Jun 2013 10:27:47 +0100
 -->
-<resources> 
-    <string name="hello-world">Hello World</string> 
-    <string name="goodbye">Goodbye</string> 
+<resources>
+    <string name="goodbye">Goodbye</string>
+    <string name="hello-world">Hello World</string>
 </resources>

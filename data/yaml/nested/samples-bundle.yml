@@ -1,45 +1,44 @@
 # Loco yaml export: Nested YAML object (Ruby on Rails)
 # Project: Samples
 # Release: Working copy
-# Tagged: All
+# Locale: en_GB, English (UK)
 # Locales: en_GB, fr_FR, it_IT, de_DE, es_ES, sv_SE, no_NO, fi_FI, da_DK
-# Exported at: Thu, 30 May 2013 16:50:09 +0100
-# Exported by: Tim Whitlock
+# Exported at: Tue, 11 Jun 2013 10:28:05 +0100
 ---
-en:
+en_GB:
   samples:
-    hello-world: Hello World
     goodbye: Goodbye
-fr:
+    hello-world: Hello World
+fr_FR:
   samples:
-    hello-world: Bonjour tout le monde
     goodbye: Au revoir
-it:
+    hello-world: Bonjour tout le monde
+it_IT:
   samples:
-    hello-world: Ciao a tutti
     goodbye: Arrivederci
-de:
+    hello-world: Ciao a tutti
+de_DE:
   samples:
-    hello-world: Hallo Welt
     goodbye: Auf Wiedersehen
-es:
+    hello-world: Hallo Welt
+es_ES:
   samples:
-    hello-world: Hola mundo
     goodbye: Adiós
-sv:
+    hello-world: Hola mundo
+sv_SE:
   samples:
-    hello-world: Hallå Världen
     goodbye: Adjö
-"no":
+    hello-world: Hallå Världen
+no_NO:
   samples:
+    goodbye: Farvel
     hello-world: Hallo Verden
-    goodbye: Farvel
-fi:
+fi_FI:
   samples:
-    hello-world: Hei Maailma
     goodbye: Näkemiin
-da:
+    hello-world: Hei Maailma
+da_DK:
   samples:
-    hello-world: Hej Verden
     goodbye: Farvel
+    hello-world: Hej Verden
 ...

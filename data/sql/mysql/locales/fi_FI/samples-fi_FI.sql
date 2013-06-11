@@ -2,10 +2,9 @@
 -- Loco sql export: MySQL inserts
 -- Project: Samples
 -- Release: Working copy
--- Tagged: All
 -- Locale: fi_FI, Finnish
--- Exported at: Thu, 30 May 2013 16:50:15 +0100
--- Exported by: Tim Whitlock 
+-- Exported by: Tim Whitlock
+-- Exported at: Tue, 11 Jun 2013 10:28:10 +0100 
 
 SET @saved_cs_client     = @@character_set_client;
 SET character_set_client = utf8;
@@ -19,8 +18,8 @@ SET character_set_client = utf8;
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
 */
 
-INSERT INTO `loco_samples` (`id`,`fi_FI`) VALUES ('hello-world','Hei Maailma') ON DUPLICATE KEY UPDATE `fi_FI`=VALUES(`fi_FI`);
 INSERT INTO `loco_samples` (`id`,`fi_FI`) VALUES ('goodbye','Näkemiin') ON DUPLICATE KEY UPDATE `fi_FI`=VALUES(`fi_FI`);
+INSERT INTO `loco_samples` (`id`,`fi_FI`) VALUES ('hello-world','Hei Maailma') ON DUPLICATE KEY UPDATE `fi_FI`=VALUES(`fi_FI`);
  
 
 SET character_set_client = @saved_cs_client;

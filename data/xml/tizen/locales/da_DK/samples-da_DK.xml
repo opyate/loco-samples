@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<!--
+ Loco xml export: Tizen string table
+ Project: Samples
+ Release: Working copy
+ Locale: da_DK, Danish
+ Exported by: Tim Whitlock
+ Exported at: Tue, 11 Jun 2013 10:28:01 +0100 
+--> 
+<string_table Bversion="" Dversion="20100701"> 
+    <text id="goodbye">Farvel</text> 
+    <text id="hello-world">Hej Verden</text> 
+</string_table>

@@ -1,14 +1,13 @@
-<?xml version="1.0"?> 
+<?xml version="1.0" encoding="utf-8"?>
 <!--
  Loco xml export: Android string resources
  Project: Samples
  Release: Working copy
- Tagged: All
  Locale: no_NO, Norwegian
- Exported at: Thu, 30 May 2013 16:49:53 +0100
- Exported by: Tim Whitlock 
+ Exported by: Tim Whitlock
+ Exported at: Tue, 11 Jun 2013 10:27:49 +0100
 -->
-<resources> 
-    <string name="hello-world">Hallo Verden</string> 
-    <string name="goodbye">Farvel</string> 
+<resources>
+    <string name="goodbye">Farvel</string>
+    <string name="hello-world">Hallo Verden</string>
 </resources>

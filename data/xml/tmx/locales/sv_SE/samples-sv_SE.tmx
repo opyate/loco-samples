@@ -4,28 +4,15 @@
  Loco xml export: TMX - Translation Memory eXchange
  Project: Samples
  Release: Working copy
- Tagged: All
+ Locale: en_GB, English (UK)
  Locales: en_GB, sv_SE
- Exported at: Thu, 30 May 2013 16:49:55 +0100
- Exported by: Tim Whitlock 
+ Exported at: Tue, 11 Jun 2013 10:27:51 +0100 
 -->
 <tmx version="1.4">
     <header creationtoolversion="1.0.0" segtype="sentence" o-tmf="" creationtool="Loco" adminlang="en_GB" srclang="en_GB" datatype="" o-encoding="utf-8">
         <note>Loco export of Samples</note>
     </header>
     <body> 
-       <tu tuid="hello-world"> 
-           <tuv xml:lang="en_GB" datatype="plaintext">
-               <seg>
-                   <![CDATA[Hello World]]>
-               </seg>
-           </tuv> 
-           <tuv xml:lang="sv_SE" datatype="plaintext">
-               <seg>
-                   <![CDATA[Hallå Världen]]>
-               </seg>
-           </tuv> 
-       </tu> 
        <tu tuid="goodbye"> 
            <tuv xml:lang="en_GB" datatype="plaintext">
                <seg>
@@ -35,6 +22,18 @@
            <tuv xml:lang="sv_SE" datatype="plaintext">
                <seg>
                    <![CDATA[Adjö]]>
+               </seg>
+           </tuv> 
+       </tu> 
+       <tu tuid="hello-world"> 
+           <tuv xml:lang="en_GB" datatype="plaintext">
+               <seg>
+                   <![CDATA[Hello World]]>
+               </seg>
+           </tuv> 
+           <tuv xml:lang="sv_SE" datatype="plaintext">
+               <seg>
+                   <![CDATA[Hallå Världen]]>
                </seg>
            </tuv> 
        </tu> 

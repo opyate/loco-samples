@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Samples\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: Thu, 30 May 2013 16:24:10 +0100\n"
-"PO-Revision-Date: Thu, 30 May 2013 16:49:46 +0100\n"
+"POT-Creation-Date: Tue, 11 Jun 2013 10:26:52 +0100\n"
+"PO-Revision-Date: Tue, 11 Jun 2013 10:27:43 +0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: French\n"
@@ -17,10 +17,10 @@ msgstr ""
 "X-Loco-Target-Locale: fr_FR\n" 
 "X-Poedit-SourceCharset: UTF-8\n"
  
-#: Asset hello-world 
-msgid "Hello World" 
-msgstr "Bonjour tout le monde" 
- 
 #: Asset goodbye 
 msgid "Goodbye" 
 msgstr "Au revoir" 
+ 
+#: Asset hello-world 
+msgid "Hello World" 
+msgstr "Bonjour tout le monde" 
