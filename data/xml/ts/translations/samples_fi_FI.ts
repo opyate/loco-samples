@@ -4,20 +4,20 @@
  Loco xml export: Qt framework TS file
  Project: Samples
  Release: Working copy
- Locale: fr_FR, French
+ Locale: fi_FI, Finnish
  Exported by: Tim Whitlock
- Exported at: Tue, 11 Jun 2013 10:44:51 +0100 
+ Exported at: Tue, 11 Jun 2013 11:02:27 +0100 
 --> 
-<TS version="2.0" language="fr_FR"> 
+<TS version="2.0" language="fi_FI"> 
     <context>
         <name>main</name> 
         <message>
             <source>Goodbye</source> 
-            <translation>Au revoir</translation> 
+            <translation>Näkemiin</translation> 
         </message> 
         <message>
             <source>Hello World</source> 
-            <translation>Bonjour tout le monde</translation> 
+            <translation>Hei Maailma</translation> 
         </message> 
     </context> 
 </TS>
