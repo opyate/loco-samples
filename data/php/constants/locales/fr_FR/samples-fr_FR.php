@@ -5,7 +5,7 @@
  * Release: Working copy
  * Locale: fr_FR, French
  * Exported by: Tim Whitlock
- * Exported at: Tue, 11 Jun 2013 10:28:24 +0100 
+ * Exported at: Tue, 11 Jun 2013 21:26:21 +0100 
  */
 
 /* @const string goodbye */

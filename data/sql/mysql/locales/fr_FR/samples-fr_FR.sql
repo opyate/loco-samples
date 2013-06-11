@@ -4,7 +4,7 @@
 -- Release: Working copy
 -- Locale: fr_FR, French
 -- Exported by: Tim Whitlock
--- Exported at: Tue, 11 Jun 2013 10:28:08 +0100 
+-- Exported at: Tue, 11 Jun 2013 21:25:59 +0100 
 
 SET @saved_cs_client     = @@character_set_client;
 SET character_set_client = utf8;

@@ -1,12 +1,11 @@
-<?xml version="1.0"?> 
-<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+<?xml version="1.0" encoding="utf-8"?> 
 <!--
  Loco xml export: XLIFF - Localisation Interchange File Format
  Project: Samples
  Release: Working copy
  Locale: en_GB, English (UK)
- Locales: en_GB, fr_FR, it_IT, de_DE, es_ES, sv_SE, no_NO, fi_FI, da_DK
- Exported at: Tue, 11 Jun 2013 10:44:47 +0100 
+ Locales: en_GB, en_GB, fr_FR, it_IT, de_DE, es_ES, sv_SE, no_NO, fi_FI, da_DK
+ Exported at: Tue, 11 Jun 2013 21:25:37 +0100 
 -->
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2"> 
     <file source-language="en_GB" target-language="fr_FR" datatype="plaintext" original="">

@@ -6,7 +6,7 @@
  Release: Working copy
  Locale: de_DE, German
  Exported by: Tim Whitlock
- Exported at: Tue, 11 Jun 2013 11:02:25 +0100 
+ Exported at: Tue, 11 Jun 2013 21:25:46 +0100 
 --> 
 <TS version="2.0" language="de_DE"> 
     <context>

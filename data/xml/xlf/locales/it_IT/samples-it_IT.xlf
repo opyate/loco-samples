@@ -1,17 +1,17 @@
-<?xml version="1.0"?> 
-<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+<?xml version="1.0" encoding="utf-8"?> 
 <!--
  Loco xml export: XLIFF - Localisation Interchange File Format
  Project: Samples
  Release: Working copy
- Locale: it_IT, Italian
- Exported by: Tim Whitlock
- Exported at: Tue, 11 Jun 2013 10:44:45 +0100 
+ Locale: en_GB, English (UK)
+ Locales: en_GB, it_IT
+ Exported at: Tue, 11 Jun 2013 21:25:35 +0100 
 -->
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2"> 
     <file source-language="en_GB" target-language="it_IT" datatype="plaintext" original="">
         <body>
             <trans-unit id="1" resname="goodbye"> 
+                <source xml:lang="en_GB">Goodbye</source> 
                 <target xml:lang="it_IT">Arrivederci</target> 
             </trans-unit>
         </body>
@@ -19,6 +19,7 @@
     <file source-language="en_GB" target-language="it_IT" datatype="plaintext" original="">
         <body>
             <trans-unit id="2" resname="hello-world"> 
+                <source xml:lang="en_GB">Hello World</source> 
                 <target xml:lang="it_IT">Ciao a tutti</target> 
             </trans-unit>
         </body>
