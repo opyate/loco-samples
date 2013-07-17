@@ -6,7 +6,7 @@
  Release: Working copy
  Locale: no_NO, Norwegian
  Exported by: Tim Whitlock
- Exported at: Tue, 11 Jun 2013 21:43:37 +0100 
+ Exported at: Wed, 17 Jul 2013 14:15:20 +0100 
 --> 
 <TS version="2.0" language="no_NO"> 
     <context>

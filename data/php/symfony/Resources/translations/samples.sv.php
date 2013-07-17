@@ -5,7 +5,7 @@
  * Release: Working copy
  * Locale: sv_SE, Swedish
  * Exported by: Tim Whitlock
- * Exported at: Tue, 11 Jun 2013 21:43:59 +0100 
+ * Exported at: Wed, 17 Jul 2013 14:15:42 +0100 
  */
 return array (
   'goodbye' => 'Adjö',

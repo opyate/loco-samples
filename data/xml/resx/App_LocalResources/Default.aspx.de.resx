@@ -6,7 +6,7 @@
   Release: Working copy
   Locale: de_DE, German
   Exported by: Tim Whitlock
-  Exported at: Tue, 11 Jun 2013 21:43:33 +0100 
+  Exported at: Wed, 17 Jul 2013 14:15:15 +0100 
   -->
   <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
     <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />

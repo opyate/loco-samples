@@ -6,7 +6,7 @@
  Release: Working copy
  Locale: fi_FI, Finnish
  Exported by: Tim Whitlock
- Exported at: Tue, 11 Jun 2013 21:43:38 +0100 
+ Exported at: Wed, 17 Jul 2013 14:15:20 +0100 
 --> 
 <TS version="2.0" language="fi_FI"> 
     <context>
