@@ -5,7 +5,7 @@
  * Release: Working copy
  * Locale: en_GB, English (UK)
  * Exported by: Tim Whitlock
- * Exported at: Tue, 14 Jan 2014 19:32:11 +0000 
+ * Exported at: Tue, 14 Jan 2014 20:21:56 +0000 
  */
 $lang['samples_goodbye'] = 'Goodbye';
 $lang['samples_hello_world'] = 'Hello World';

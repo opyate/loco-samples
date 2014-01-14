@@ -4,7 +4,7 @@
  * Release: Working copy
  * Locale: fi_FI, Finnish
  * Exported by: Tim Whitlock
- * Exported at: Tue, 14 Jan 2014 19:32:09 +0000 
+ * Exported at: Tue, 14 Jan 2014 20:21:55 +0000 
  */
 var gt = new Gettext( {
     domain: "samples",
