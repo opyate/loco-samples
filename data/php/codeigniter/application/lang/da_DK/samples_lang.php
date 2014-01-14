@@ -5,7 +5,7 @@
  * Release: Working copy
  * Locale: da_DK, Danish
  * Exported by: Tim Whitlock
- * Exported at: Wed, 17 Jul 2013 14:15:45 +0100 
+ * Exported at: Tue, 14 Jan 2014 19:32:11 +0000 
  */
 $lang['samples_goodbye'] = 'Farvel';
 $lang['samples_hello_world'] = 'Hej Verden';

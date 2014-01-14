@@ -4,7 +4,7 @@
  * Release: Working copy
  * Locale: de_DE, German
  * Exported by: Tim Whitlock
- * Exported at: Wed, 17 Jul 2013 14:15:33 +0100 
+ * Exported at: Tue, 14 Jan 2014 19:32:07 +0000 
  */
 var t = function( pairs ){
     
@@ -18,24 +18,17 @@ var t = function( pairs ){
 
     // expose public t() function
     return function( msgid1, msgid2, n ){
-        var value  = pairs[msgid1];
-        if( arguments.length < 2 ){
-            if( null == value ){
-                return msgid1||'';
-            }
-            if( 'string' !== typeof value ){
-                value = value.one;
-            }
-            return value;
+        var value = pairs[msgid1];
+        // singular if no multiplier
+        if( null == n ){
+            n = 1;
         }
-        // plural operation
-        n = pluralIndex( n );
-        value = value ? value[ pluralForms[n]||'other' ] : null;
-        if( null == value ){
-            return n ? msgid2||msgid1 : msgid1;
+        // plurals stored as objects, e.g. { one: "" }
+        if( value instanceof Object ){
+            value = value[ pluralForms[ pluralIndex(n) ] || 'one' ];
         }
-        return value;
-    }
+        return value || ( 1 === n ? msgid1 : msgid2 ) || msgid1 || '';
+    };
 }(
     {"goodbye":"Auf Wiedersehen","hello-world":"Hallo Welt"} 
 );

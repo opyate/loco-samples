@@ -5,7 +5,7 @@
  * Release: Working copy
  * Locale: fi_FI, Finnish
  * Exported by: Tim Whitlock
- * Exported at: Wed, 17 Jul 2013 14:15:46 +0100 
+ * Exported at: Tue, 14 Jan 2014 19:32:12 +0000 
  */
 
 /* @const string goodbye */

@@ -6,7 +6,7 @@
  Release: Working copy
  Locale: es_ES, Spanish
  Exported by: Tim Whitlock
- Exported at: Wed, 17 Jul 2013 14:15:19 +0100 
+ Exported at: Tue, 14 Jan 2014 19:32:01 +0000 
 --> 
 <TS version="2.0" language="es_ES"> 
     <context>

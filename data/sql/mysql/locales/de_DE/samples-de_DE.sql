@@ -4,7 +4,7 @@
 -- Release: Working copy
 -- Locale: de_DE, German
 -- Exported by: Tim Whitlock
--- Exported at: Wed, 17 Jul 2013 14:15:29 +0100 
+-- Exported at: Tue, 14 Jan 2014 19:32:05 +0000 
 
 SET @saved_cs_client     = @@character_set_client;
 SET character_set_client = utf8;

@@ -5,7 +5,7 @@
  * Release: Working copy
  * Locale: it_IT, Italian
  * Exported by: Tim Whitlock
- * Exported at: Wed, 17 Jul 2013 14:15:41 +0100 
+ * Exported at: Tue, 14 Jan 2014 19:32:10 +0000 
  */
 return array (
   'goodbye' => 'Arrivederci',

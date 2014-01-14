@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Samples\n"
 "Report-Msgid-Bugs-To: Tim Whitlock\n"
-"POT-Creation-Date: Wed, 17 Jul 2013 14:23:35 +0100\n"
+"POT-Creation-Date: Tue, 14 Jan 2014 19:32:18 +0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS\n"
 "Language-Team: \n"
@@ -13,13 +13,13 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Loco http://loco.local\n"
+"X-Generator: Loco https://ssl.loco.192.168.0.7.xip.io\n"
 "X-Poedit-SourceCharset: UTF-8"
 
-#. asset: goodbye
+#: goodbye
 msgid "Goodbye"
 msgstr ""
 
-#. asset: hello-world
+#: hello-world
 msgid "Hello World"
 msgstr ""
